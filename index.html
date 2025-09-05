@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Epistemicon 2025</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- link for AOS Library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Icons & Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link rel="stylesheet" href="style1.css">
+
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="eventLogo">
+      <img src="event_logo1.png" alt="Epistemicon logo" />
+      <a href="#home" class="logo">EPISTEMICON – 2025</a>
+
+    </div>
+
+    <div id="menu-bar" role="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+      <i class="fas fa-bars" aria-hidden="true"></i>
+    </div>
+
+    <nav id="site-nav" class="navbar" aria-label="Primary">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#key-events">Key Events</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Register</a>
+    </nav>
+  </header>
+
+
+  <!-- Hero -->
+  <section id="home" class="home container">
+    <div class="content">
+      <video src="https://res.cloudinary.com/dcmt06mac/video/upload/v1756913687/logo_video1_jy0jpx.mp4" autoplay muted loop playsinline poster="banner-poster.jpg" style="border: none;"
+        id="myVideo"></video>
+      <div class="ticker" aria-label="Event ticker"><span> your stage, your story, your innovation — this is
+          Epistemicon! • your stage, your story, your innovation — this is Epistemicon! • </span></div>
+      <!-- <a href="#key events" class="btn">Details</a> <br> <br> -->
+      <a href="#contact" class="btn">Register</a>
+    </div>
+  </section>
+
+  <section class="date" style="margin-top: 2rem;"> 
+    <div class="box">
+      20.09.2025
+    </div>
+  </section>
+
+
+  <!-- Countdown -->
+  <section class="countdown-section container" aria-labelledby="countdown-title">
+    <h1 id="countdown-title">⏳ Countdown to Epistemicon 2025 🎉 </h1>
+    <div class="countdown-grid" aria-live="polite" aria-atomic="true">
+      <div class="time-box">
+        <h2 id="days">00</h2>
+        <p>Days</p>
+      </div>
+      <div class="time-box">
+        <h2 id="hours">00</h2>
+        <p>Hours</p>
+      </div>
+      <div class="time-box">
+        <h2 id="minutes">00</h2>
+        <p>Minutes</p>
+      </div>
+      <div class="time-box">
+        <h2 id="seconds">00</h2>
+        <p>Seconds</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" style="width: 90vw;">
+    <h1>About Epistemicon</h1>
+    <div>
+      <p>Epistemicon, hosted by <b> <span style="color: #EE0548;"> Andhra Loyola Institute of Engineering and
+            Technology</span></b>, is a dynamic inter-collegiate fest celebrating innovation, creativity, and talent. It
+        brings together students from diverse colleges to compete, collaborate, and showcase their skills across
+        technology, adaptability & feasibility.</p>
+    </div>
+  </section>
+
+  <section class="brochure">
+    <img src="brochure.jpg" alt="Epistemicon Brochure" class="broch">
+  </section>
+
+  <!-- Steps -->
+  <h1>Key Events</h1>
+  <section class="step-container" aria-label="Event Schedule" id="key-events">
+
+    <article class="step" data-event="expo">
+      <span>01</span>
+      <h3>Project Expo</h3>
+      <p>20/09/2025, Saturday</p>
+      <a href="#" class="btn secondary learn-more">Learn more</a>
+    </article>
+
+    <div class="popup-card" id="popup-expo" role="dialog" aria-modal="true" aria-labelledby="popup-expo-title"
+      tabindex="-1">
+      <div class="popup-content">
+        <button class="close-popup" aria-label="Close">&times;</button>
+        <h2 id="popup-expo-title">Project Expo - Details</h2>
+        <p>
+          The Project Expo will showcase innovative projects by students. Participants can present their prototypes and
+          research from 10:00 am onwards.
+          <br><br>Protocols:
+        <ul>
+          <li>Registration by 9:30 am</li>
+          <li>Prototype setup required by 9:45 am</li>
+          <li>Judging panel will visit each stall from 10:15 am</li>
+          <li>The final results will be determined solely by the jury’s decision.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <article class="step" data-event="paper">
+      <span>02</span>
+      <h3>Paper Presentation</h3>
+      <p>20/09/2025, Saturday</p>
+      <a href="#" class="btn secondary learn-more">Learn more</a>
+    </article>
+
+    <div class="popup-card" id="popup-paper" role="dialog" aria-modal="true" aria-labelledby="popup-paper-title"
+      tabindex="-1">
+      <div class="popup-content">
+        <button class="close-popup" aria-label="Close">&times;</button>
+        <h2 id="popup-paper-title">Paper Presentation - Details</h2>
+        <p>
+          Participants present their research papers on various topics.
+          <br><br>Protocols:
+        <ul>
+          <li>Submit abstract by 18/09/2025 to respective department emails mentioned in the brochure</li>
+          <li>Presentation time limit: 8 minutes + 2 minutes for Evaluation.</li>
+          <li>Use of multimedia presentations allowed</li>
+          <li>The final results will be determined solely by the jury’s decision.</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <article class="step" data-event="poster">
+      <span>03</span>
+      <h3>Poster Presentation</h3>
+      <p>20/09/2025, Saturday</p>
+      <a href="#" class="btn secondary learn-more">Learn more</a>
+    </article>
+
+    <div class="popup-card" id="popup-poster" role="dialog" aria-modal="true" aria-labelledby="popup-poster-title"
+      tabindex="-1">
+      <div class="popup-content">
+        <button class="close-popup" aria-label="Close">&times;</button>
+        <h2 id="popup-poster-title">Poster Presentation - Details</h2>
+        <p>
+          A platform for students to display scientific posters.
+          <br><br>Protocols:
+        <ul>
+          <li>Poster size max 24"x36"</li>
+          <li>Posters must be displayed by 1:45 pm</li>
+          <li>Judging criteria includes application of latest technology, adaptability, feasibility, creativity</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+    <article class="step" data-event="quiz">
+      <span>04</span>
+      <h3>Technical Quiz</h3>
+      <p>20/09/2025, Saturday</p>
+      <a href="#" class="btn secondary learn-more">Learn more</a>
+    </article>
+
+    <div class="popup-card" id="popup-quiz" role="dialog" aria-modal="true" aria-labelledby="popup-quiz-title"
+      tabindex="-1">
+      <div class="popup-content">
+        <button class="close-popup" aria-label="Close">&times;</button>
+        <h2 id="popup-quiz-title">Technical Quiz - Details</h2>
+        <p>
+          Test your knowledge and quick thinking in this exciting quiz competition!
+          <br><br>Protocols:
+        <ul>
+          <li>Teams of 2 participants</li>
+          <!-- <li>Registration closes by 19/08/2025</li> -->
+          <li>Quiz duration: 60 minutes</li>
+          <li>Topics include technology, innovation, and general science</li>
+          <li>Use of electronic devices is not permitted during the quiz</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+
+    <article class="step" data-event="spot">
+      <span>05</span>
+      <h3>Spot Events</h3>
+      <p>20/09/2025, Saturday.</p>
+      <a href="#" class="btn secondary learn-more">Learn more</a>
+    </article>
+
+    <div class="popup-card" id="popup-spot" role="dialog" aria-modal="true" aria-labelledby="popup-spot-title"
+      tabindex="-1">
+      <div class="popup-content">
+        <button class="close-popup" aria-label="Close">&times;</button>
+        <h2 id="popup-spot-title">Spot Events - Details</h2>
+        <p>
+          Spot events are on-the-spot competitions designed to test creativity, presence of mind, and fun engagement.
+          <br><br>Protocols:
+        <ul>
+          <li>Teams of 2 participants</li>
+          <li>Spot Registration</li>
+          <!-- <li>Quiz duration: 60 minutes</li> -->
+          <li>On-the-spot competitions</li>
+          <li>Use of electronic devices is not permitted during the quiz</li>
+        </ul>
+        </p>
+      </div>
+    </div>
+
+
+  </section>
+
+
+
+  <section id="gallery">
+    <h1 class="section-title">Gallery</h1>
+    <div class="horizontal-gallery">
+      <img src="28.jpeg" alt="Event 1">
+      <img src="15.jpeg" alt="Event 1">
+      <img src="26.jpeg" alt="Event 2">
+      <img src="27.jpeg" alt="Event 2">
+      <img src="23.jpeg" alt="Event 2">
+      <img src="3.jpeg" alt="Event 2">
+      <img src="19.jpeg" alt="Event 2">
+      <img src="29.jpeg" alt="Event 2">
+      <img src="4.jpeg" alt="Event 2">
+      <img src="11.jpeg" alt="Event 2">
+      <img src="6.jpeg" alt="Event 2">
+      <img src="16.jpeg" alt="Event 2">
+      <img src="17.jpeg" alt="Event 2">
+      <img src="18.jpeg" alt="Event 2">
+      <img src="14.jpeg" alt="Event 2">
+    </div>
+  </section>
+
+  <!-- Lightbox popup -->
+  <div class="lightbox-overlay" id="lightbox">
+    <span class="close-lightbox" id="closeBtn">&times;</span>
+    <img id="lightbox-img" src="" alt="Enlarged view">
+  </div>
+
+  <!-- video section -->
+  <section id="promo-video" class="container my-5">
+    <div class="heading">
+      <h2 class="heading">ALIET – Power Moments on Screen⚡</h2>
+    </div>
+    <p class="text-center text-muted mb-4"> Experience the spirit of ALIET — inspiring journeys, empowering voices, and
+      unforgettable moments captured in every frame. 🌟
+    </p>
+
+    <!-- Video Gallery -->
+    <div class="d-flex flex-row flex-nowrap overflow-auto gap-3 pb-3">
+      <!-- Video Card -->
+      <div class="card video-card shadow-sm rounded-3" style="min-width: 250px;" data-aos="fade-up">
+        <div class="video-thumb ml-2" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756911137/epistemicon-2k25_doeqgf.mp4">
+          <img src="17.jpeg" class="card-img-top rounded-top" alt="Promo Video 1">
+          <div class="overlay"><span class="play-icon">▶</span></div>
+        </div>
+        <div class="card-body text-center">
+          <h6 class="card-title">Highlights of Epistemicon-2k24</h6>
+          <button class="btn btn-primary btn-sm video-btn" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756911137/epistemicon-2k25_doeqgf.mp4">▶ Click to Watch</button>
+        </div>
+      </div>
+
+      <div class="card video-card shadow-sm rounded-3" style="min-width: 250px;" data-aos="fade-up">
+        <div class="video-thumb" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756913687/logo_video1_jy0jpx.mp4">
+          <img src="event_logo1.png" class="card-img-top rounded-top" alt="Aftermovie">
+          <div class="overlay"><span class="play-icon">▶</span></div>
+        </div>
+        <div class="card-body text-center">
+          <h6 class="card-title">Logo Video</h6>
+          <button class="btn btn-primary btn-sm video-btn" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756913687/logo_video1_jy0jpx.mp4">▶ Click to Watch</button>
+        </div>
+      </div>
+
+      <div class="card video-card shadow-sm rounded-3" style="min-width: 250px;" data-aos="fade-up">
+        <div class="video-thumb" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756910896/version1_yjbrso.mp4">
+          <img src="3v.jpeg" class="card-img-top rounded-top" alt="Teaser">
+          <div class="overlay"><span class="play-icon">▶</span></div>
+        </div>
+        <div class="card-body text-center">
+          <h6 class="card-title">✨ALIET – Empowering Young Minds, Shaping Futures</h6>
+          <button class="btn btn-primary btn-sm video-btn" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756910896/version1_yjbrso.mp4">▶ Click to Watch</button>
+        </div>
+      </div>
+      <div class="card video-card shadow-sm rounded-3" style="min-width: 250px;" data-aos="fade-up">
+        <div class="video-thumb" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756909186/4v_1_tl9jux.mp4">
+          <img src="p4.jpeg" class="card-img-top rounded-top" alt="Teaser">
+          <div class="overlay"><span class="play-icon">▶</span></div>
+        </div>
+        <div class="card-body text-center">
+          <h6 class="card-title">Faculty Exchange Program</h6>
+          <button class="btn btn-primary btn-sm video-btn" data-video="https://res.cloudinary.com/dcmt06mac/video/upload/v1756909186/4v_1_tl9jux.mp4">▶ Click to Watch</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal fade" id="videoModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-dark">
+        <div class="modal-body p-0">
+          <video id="modalVideo" controls autoplay class="w-100 rounded">
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End of video section -->
+
+  <!-- Location -->
+  <section class="location" id="location">
+    <div class="heading">
+      <h1>Location</h1>
+    </div>
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3825.3466807259415!2d80.65604947460868!3d16.508586527527395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fcc97636aaa9%3A0xa173d94ed4a34bc9!2sAndhra%20Loyola%20Institute%20of%20Engineering%20and%20Technology!5e0!3m2!1sen!2sin!4v1756637906884!5m2!1sen!2sin"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="location-details">
+      <p>Please refer to the map above for directions and location details:</p>
+      <p>GM55+CCQ, ITI Rd, Beside Ramesh Hospital, Jayaprakash Nagar, Vijayawada, Andhra Pradesh 520008</p>
+      <!-- <p>Please refer to the map above for directions and location details.</p> -->
+    </div>
+  </section>
+
+
+  <section class="team" id="team">
+
+    <div class="heading" style="margin: 1rem;">
+      <h1>Organised by Department of CSE</h1>
+      <img src="" alt="">
+    </div>
+
+    <div class="box-container">
+      <div class="box">
+        <img src="cselogo.jpg" alt="">
+        <h3>CSE Department</h3>
+        <span>ALIET</span>
+
+        <div class="share">
+          <a href="https://www.youtube.com/@alietcseofficial" target="_blank"><i class="fab fa-youtube"></i></a>
+
+          <a href="https://www.instagram.com/aliet_cse_connect/?igsh=YmVscXAwdTFtOTZ2#" target="_blank"><i
+              class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/posts/aliet-cse-network_epistemicon2k24-aliet-cse-activity-7367381868054237185-Lc7E?utm_source=share&utm_medium=member_android&rcm=ACoAAD12y6EBCLhllJXZ8mEBTnKJCtYcOOeAqZQ"
+            target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://www.facebook.com/share/1Gdweyrife/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="heading">
+      <h1>Registration</h1>
+    </div>
+    <form action="" method="post" class="contact-form" name="contact-form">
+      <div class="inputRow">
+        <input type="text" name="Name" placeholder="Your name" autocomplete="name" required>
+        <input type="number" name="Number" placeholder="Mobile number" autocomplete="tel">
+      </div>
+
+      <div class="inputRow">
+        <input type="email" name="Email" placeholder="Your email" autocomplete="email" required>
+        <input type="text" name="College" placeholder="Your college" autocomplete="college">
+      </div>
+
+      <div class="inputRow">
+        <select name="Department" id="eventdd">
+          <option value="">--Select Your Department--</option>
+          <option value="CSE">CSE</option>
+          <option value="ECE">ECE</option>
+          <option value="EEE">EEE</option>
+          <option value="CIVIL">CIVIL</option>
+          <option value="MECH">MECHANICAL</option>
+          <option value="CSM">CSM</option>
+          <option value="CSD">CSD</option>
+        </select>
+      </div>
+
+        <!-- <select name="event" id="eventdd">
+          <option value="Project Expo">--Select Event you want to participate--</option>
+          <option value="Project Expo">Project Expo</option>
+          <option value="Paper Presentation">Paper Presentation</option>
+          <option value="Poster Presentation">Poster Presentation</option>
+          <option value="Technical Quiz">Technical Quiz</option>
+        </select>
+      </div> -->
+
+        <div class="events">
+          <div class="heading">
+            <h3>Select Events you want to participate</h3>
+          </div>
+          <div class="events1" style="margin-left: 1rem; text-align: left;">
+            <label><input type="checkbox" name="event[]" value="Project Expo" style="width: auto;"> Project
+              Expo</label><br>
+            <label><input type="checkbox" name="event[]" value="Paper Presentation" style="width: auto;"> Paper
+              Presentation</label><br>
+            <label><input type="checkbox" name="event[]" value="Poster Presentation" style="width: auto;"> Poster
+              Presentation</label><br>
+            <label><input type="checkbox" name="event[]" value="Technical Quiz" style="width: auto;"> Technical
+              Quiz</label><br>
+            <label><input type="checkbox" name="event[]" value="Spot Events" style="width: auto;"> Spot Events</label><br>
+          </div>
+        </div>
+
+        <!-- <div class="inputRow">
+        <input type="text" name="Transaction_ID" placeholder="Your Transaction ID" required>
+      </div> -->
+
+        <button class="btn" type="submit">Register</button>
+    </form>
+  </section>
+
+  <!-- Loader -->
+<div id="loader" style="display:none;">
+  <div class="spinner"></div>
+</div>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-logo">
+        <img src="event_logo1.png" alt="Epistemicon Logo" />
+        <h2>Epistemicon-2K25</h2>
+      </div>
+
+      <div class="footer-logo">
+        <h2> <a href="https://www.aliet.ac.in/" target="_blank">ALIET</a> </h2>
+      </div>
+
+      <!-- <div class="footer-social">
+        <a href="https://www.facebook.com/share/1Gdweyrife/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/aliet_cse_connect/?igsh=YmVscXAwdTFtOTZ2#" target="_blank"><i
+            class="fab fa-instagram"></i></a>
+        <a href="https://www.youtube.com/@alietcseofficial" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.linkedin.com/posts/aliet-cse-network_epistemicon2k24-aliet-cse-activity-7367381868054237185-Lc7E?utm_source=share&utm_medium=member_android&rcm=ACoAAD12y6EBCLhllJXZ8mEBTnKJCtYcOOeAqZQ"
+          target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div> -->
+
+      <div class="footer-info">
+        <p>&copy; 2025 Epistemicon | All rights reserved</p>
+        <p>Developed by: Department of CSE</p>
+        <p> <a href="https://www.linkedin.com/in/jakir-hussain-khan-1182b3234/" target = "_blank"> Jakir Khan </a></p>
+        <p> <a href="https://www.linkedin.com/in/ahmadjaved123/" target = "_blank"> Ahmad Javed </a></p>
+        <p> <a href="https://www.linkedin.com/in/chaitanya-dussa-fullstackdevelopment/" target = "_blank"> Chaitanya </a></p>
+        
+        <p> <a href="http://aliet.ac.in/" target="_blank"> <i class="fas fa-map-marker-alt"></i>Andhra Loyola Institute
+            of Engineering & Technology,Vijayawada,Andhra
+            Pradesh India </a></p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,   // animation speed
+      easing: 'ease-in-out',
+      once: true       // animate only once
+    });
+  </script>
+
+  <!-- Bootstrap Bundle with Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- script for custom js -->
+  <script>
+
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyCaDB9etpM6QZ3c6X-noSCIRJOZXlfJv-OY9PtS-rJ21YvxRKyhtZEGUTuLXcUslRu/exec'
+
+    const form = document.forms['contact-form']
+    const loader = document.getElementById("loader");
+    form.addEventListener('submit', e => {
+    e.preventDefault();
+
+    // Show loader
+    loader.style.display = "flex";
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+      .then(response => {
+        loader.style.display = "none"; // Hide loader
+        alert("✅ Registration Completed. Please check your Email (Inbox/Spam).");
+        window.location.reload();
+      })
+      .catch(error => {
+        loader.style.display = "none"; // Hide loader
+        alert("❌ Error! Please try again later.");
+        console.error('Error!', error.message);
+      });
+  });
+
+    // ----------------------------
+    // Mobile nav
+    // ----------------------------
+    const menuBtn = document.getElementById('menu-bar');
+    const nav = document.getElementById('site-nav');
+    menuBtn?.addEventListener('click', () => {
+      const open = menuBtn.getAttribute('aria-expanded') === 'true';
+      menuBtn.setAttribute('aria-expanded', String(!open));
+      nav.classList.toggle('open');
+    });
+    // close menu on scroll or link click (mobile)
+    window.addEventListener('scroll', () => { nav.classList.remove('open'); menuBtn.setAttribute('aria-expanded', 'false'); });
+    nav?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      nav.classList.remove('open'); menuBtn.setAttribute('aria-expanded', 'false');
+    }));
+
+    // ----------------------------
+    // Countdown (with zero-padding & accessibility)
+    // ----------------------------
+    const $d = document.getElementById('days');
+    const $h = document.getElementById('hours');
+    const $m = document.getElementById('minutes');
+    const $s = document.getElementById('seconds');
+
+    const eventDate = new Date('September 20, 2025 00:00:00').getTime();
+
+    function pad(n) { return String(n).padStart(2, '0'); }
+
+    const timer = setInterval(() => {
+      const now = Date.now();
+      const distance = eventDate - now;
+      if (distance <= 0) {
+        document.querySelector('.countdown-section').innerHTML = '<h2 style="text-align:center">🎉 Epistemicon 2K25 Has Begun! 🎉</h2>';
+        clearInterval(timer);
+        return;
+      }
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      $d.textContent = pad(days);
+      $h.textContent = pad(hours);
+      $m.textContent = pad(minutes);
+      $s.textContent = pad(seconds);
+    }, 1000);
+
+    // document.getElementById("myVideo").defaultPlaybackRate = 2.0;
+
+
+    //cards for showcasing the details of the event..
+    document.addEventListener('DOMContentLoaded', () => {
+      const learnMoreButtons = document.querySelectorAll('.learn-more');
+      const popups = document.querySelectorAll('.popup-card');
+      const closeButtons = document.querySelectorAll('.close-popup');
+
+      learnMoreButtons.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          // Find related popup ID using the previous sibling or data attribute
+          const step = btn.closest('.step');
+          const eventName = step.getAttribute('data-event');
+          const popup = document.getElementById(`popup-${eventName}`);
+          if (popup) {
+            popup.classList.add('active');
+            popup.focus();
+          }
+        });
+      });
+
+      closeButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          btn.closest('.popup-card').classList.remove('active');
+        });
+      });
+
+      // Close popup when clicking outside content
+      popups.forEach(popup => {
+        popup.addEventListener('click', (e) => {
+          if (e.target === popup) {
+            popup.classList.remove('active');
+          }
+        });
+      });
+
+      // Close popup on ESC key press
+      document.addEventListener('keydown', (e) => {
+        if (e.key === "Escape") {
+          popups.forEach(popup => popup.classList.remove('active'));
+        }
+      });
+    });
+
+    //for gallery 
+
+    const galleryImages = document.querySelectorAll('.horizontal-gallery img');
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightbox-img');
+    const closeBtn = document.getElementById('closeBtn');
+
+    galleryImages.forEach(img => {
+      img.addEventListener('click', () => {
+        lightboxImg.src = img.src;
+        lightbox.classList.add('active');
+      });
+    });
+
+    closeBtn.addEventListener('click', () => {
+      lightbox.classList.remove('active');
+      lightboxImg.src = '';
+    });
+
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) {
+        lightbox.classList.remove('active');
+        lightboxImg.src = '';
+      }
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        lightbox.classList.remove('active');
+        lightboxImg.src = '';
+      }
+    });
+    document.addEventListener("DOMContentLoaded", function () {
+      const video = document.getElementById("eventVideo");
+
+      if ("IntersectionObserver" in window && video) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              video.play();
+            } else {
+              video.pause();
+            }
+          });
+        }, {
+          threshold: 0.6 // Play when 60% of the video is visible
+        });
+
+        observer.observe(video);
+      }
+    });
+
+    //video section js
+    const clickableElements = document.querySelectorAll('.video-btn, .video-thumb');
+    const modal = new bootstrap.Modal(document.getElementById('videoModal'));
+    const modalVideo = document.getElementById('modalVideo');
+
+    clickableElements.forEach(el => {
+      el.addEventListener('click', () => {
+        const videoSrc = el.getAttribute('data-video');
+        if (videoSrc) {
+          modalVideo.querySelector('source').src = videoSrc;
+          modalVideo.load();
+          modal.show();
+        }
+      });
+    });
+
+    document.getElementById('videoModal').addEventListener('hidden.bs.modal', () => {
+      modalVideo.pause();
+    });
+
+  </script>
+
+</body>
+
+</html>
